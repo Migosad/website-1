@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #042312;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #eee;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navgation a {
+    text-decoration: none;
+    color: #557965;
+    font-weight: 500;
+    font-size: 1.2em;
+    padding: 30px;
+    transition: 0.7s ease;
+}
+
+.navgation a:hover {
+    color: #a8deb9;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #557965;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    color: #044621;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #042312;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main h3 {
+    color: #044621;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    color: #fff;
+    background-color: #042312;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    background-color: #557965;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: #eee;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+.cards {
+    background-color: #466454;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #042312;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #557965;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgb(1, 1, 1 /15px);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    color: #042312;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: #042312;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.projects {
+    background-color: #354c3f;
+}
+
+.projects .content {
+    margin-top: 30px;
+}
+
+.projects-card {
+    background-color: #557965;
+    border: 2px solid #011b0d;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.projects-card:hover {
+    transform: scale(1.1);
+}
+
+.projects-card:hover .projects-images {
+    opacity: 0.9;
+}
+
+.projects-images img {
+    width: 100%;
+}
+
+.projects-info {
+    padding: 1em;
+}
+
+.projects-catgory {
+    font-size: 0.8em;
+    color: #000;
+}
+
+.projects-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details {
+    text-decoration: none;
+    color: black;
+}
+
+.more-details:hover {
+    transition: 0.7s ease;
+    color: #eee;
+}
+
+.contact {
+    background-color: #1a261f;
+}
+
+.contact .content {
+    margin-top: 30px;
+}
+
+.contact h2 {
+    color: #557965;
+}
+
+.contact-card {
+    background-color: #354c3f;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgb(1, 1, 1 /15px);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.contact-card:hover {
+    transform: scale(1.1);
+}
+
+.contact-icon {
+    color: #042312;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: #042312;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+footer {
+    background-color: #18221c;
+    color: #eee;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: #557965;
+}
+
+footer .social-icons a {
+    font-size: 1.3 em;
+    padding: 0 12px 0 0;
+}
